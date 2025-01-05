@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(lightcoral, lightblue);
+    overflow: hidden;
+}
+button{
+    width: fit-content;
+    padding: 8px;
+    cursor: progress;
+    border: 3px solid lavender;
+    border-radius: 5px;
+    background: wheat;
+}
+button:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+.container{
+    border: 5px dotted black;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    border: 10px double wheat;
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 0 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+#message-input{
+    width: 90%;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: 3px solid lavender;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+@media (max-width:480px) {
+    .message input{
+        width: 82%;
+    }
+}
